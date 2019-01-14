@@ -1,0 +1,39 @@
+paste this into mermaid.
+
+graph TD
+A[College <br/> Enrollment] -->|FAFSA Filled| B(get to classes)
+B --> C{C English101}
+C --> D[D CMST 250]
+C --> I[I Prog110]
+B -->G{G Algebra 099}
+G -->H[H Algebra 138/141]
+B -->H2[H2 BUSIT 103]
+G  -->I[I Prog110 Python]
+I -->J[J Robai105]
+C -->L[L English235]
+K -->M{M CMST340}
+D -->K
+L -->K
+K -->N1[N1 MATH341]
+K --> R[R PHIL375]
+K --> R2[R2 ISIT 434]
+N1 -->N2[N2 MATH342]
+K -->O[O ECON400]
+H -->K{K BaScience Data <br/> Analytics Program Entry}
+K -->Q[Q DA310]
+Q --> S[S DA320]
+Q --> W[W DA460]
+Q --> T[T DA410]
+N2 --> T[T DA410]
+T --> U[U DA410]
+U --> T1[T1 DA420]
+T1 --> V[V DA430]
+N2 --> W[W DA460]
+T1 --> X[X DA485]
+H2 --> K
+K --> Y[Y ISIT330]
+Y --> Z[Z ISIT 334]
+
+{
+  "theme": "default"
+}
